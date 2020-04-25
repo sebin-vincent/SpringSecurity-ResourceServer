@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: resourceServer
+
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-value: -----BEGIN PUBLIC KEY-----
+          MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlVG768ODyH2ZSKExDs8u
+          8meWkNmHD3hiMq/KD8tFM15twHYsE+f9NlG5hGTuF1rXI2MbqQ6hewYjUE50tr6D
+          arY2QkaiQktXuh2yS/BNd40yhyuEiXHw4Wjl6F57UveWFQtZbn3IrZI0LME1zZbL
+          PuBLybXtaXwzCJmhCy6rC/rhbE0JEb+FGSZ1NQbQOvHmN97OIjBtDCFjbHdlEQoW
+          fhk46ANOm9fMo66r7cN54WSbbh8KlwBqV/bA+uWcTkljMFRnlvhM2XjmgmaoOcue
+          9ZE6MWZzYhDe2iITa1qOyfv84ryqYxq8VAqaWyEXJ4PGiItdETo4/FTckue4rL/5
+          AQIDAQAB
+          -----END PUBLIC KEY-----
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+
